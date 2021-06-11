@@ -1,0 +1,211 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin: 0px;
+}
+
+.container {
+  width: 100vw;
+}
+
+/* navigate bar */
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  color: black;
+  font-weight: bolder;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0px 0px 100px 0px #000033;
+  padding-top: 50px;
+}
+
+.navbar ul li {
+  text-decoration: none;
+  display: inline;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+  position: sticky;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lalezar", cursive;
+  font-size: 25px;
+  position: relative;
+}
+
+.navbar ul li a:hover {
+  color: #e1701a;
+  transition: color 0.5s;
+}
+
+.navbar img {
+  width: 90px;
+  height: 63px;
+  padding: 0px 0px 0px 50px;
+  overflow: visible;
+}
+
+.sub_menu {
+  display: none;
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  text-align: left;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.parent_menu:hover .sub_menu {
+  display: block;
+}
+/* banner */
+
+.banner {
+  width: 1349px;
+  height: 500px;
+  background-image: url(image/ourstory_bentre.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.banner .banner_text {
+  width: 470px;
+  height: 210px;
+  position: absolute;
+  left: 220px;
+  top: 180px;
+}
+
+.banner .banner_text h1 {
+  color: white;
+  font-size: 48px;
+  font-family: "Lalezar", cursive;
+  line-height: 40px;
+  font-weight: 300;
+  margin-block: 0;
+}
+
+.banner .banner_text span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  position: absolute;
+  display: block;
+  top: 50px;
+}
+
+/* banner 2*/
+
+.banner_2 {
+  display: block;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-image: url("image/ourstory_planting.jpg");
+  background-size: cover;
+}
+
+.banner_2 h2 {
+  font-family: "Lalezar", cursive;
+  font-weight: 300;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 59px;
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+}
+
+.banner_2 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  top: 240px;
+  left: 200px;
+  right: 700px;
+}
+
+/* certificates */
+.certificate {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  background-color: #f7d756;
+  height: 600px;
+}
+
+.certificate .text {
+  width: 512px;
+  padding: 50px 0px 0px 150px;
+}
+
+.certificate .text h2 {
+  font-weight: 500;
+  font-size: 71px;
+  line-height: 20px;
+}
+
+.certificate .image_container {
+  padding: 50px 0px 0px 50px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  grid-template-rows: 30% 70%;
+  background-color: #b9d01d;
+  height: 300px;
+}
+
+footer .text1 h3 {
+  font-family: "Lalezar", cursive;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .detail p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .list li a {
+  text-decoration: none;
+  font-family: "Lalezar", cursive;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .list ul li {
+  list-style-type: none;
+}
+
+footer .list {
+  padding: 10px 0px 0px 100px;
+}

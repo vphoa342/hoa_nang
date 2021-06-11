@@ -1,0 +1,219 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigate bar */
+.navbar {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  color: black;
+  font-weight: bolder;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  box-shadow: -25px 0px 60px #000033;
+}
+
+.navbar ul li {
+  text-decoration: none;
+  display: inline;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+  position: sticky;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lalezar", cursive;
+  font-size: 25px;
+  position: relative;
+}
+
+.navbar ul li a:hover {
+  color: #e1701a;
+  transition: color 0.5s;
+}
+
+.navbar img {
+  width: 90px;
+  height: 63px;
+  padding: 0px 0px 0px 50px;
+  overflow: visible;
+}
+
+.sub_menu {
+  display: none;
+
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  text-align: left;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.sub_menu a {
+  color: #e1701a;
+}
+
+.parent_menu:hover .sub_menu {
+  display: block;
+}
+/* banner */
+
+.banner {
+  width: 1349px;
+  height: 500px;
+  background-image: url(image/rice_banner.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.banner .banner_text {
+  width: 470px;
+  height: 210px;
+  position: absolute;
+  left: 220px;
+  top: 90px;
+}
+
+.banner .banner_text h1 {
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Lalezar", cursive;
+  line-height: 70px;
+}
+
+.banner .banner_text span {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 700;
+  vertical-align: middle;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26px;
+}
+
+/* product menu */
+
+.product {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 50% 50%;
+  height: 884px;
+}
+
+.product .item {
+  display: block;
+  position: relative;
+}
+
+.item span {
+  color: black;
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  font-family: "Lalezar", cursive;
+  line-height: 31px;
+  font-weight: 500;
+  display: block;
+  margin: 35px 0px 0px 0px;
+  position: absolute;
+}
+
+.item span:hover {
+  color: #23527c;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.item button {
+  background-color: transparent;
+  border-color: white;
+  border-width: 0.1px;
+  border-style: solid;
+  color: white;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: 70px 0px 0px 200px;
+  cursor: pointer;
+}
+
+.item img {
+  position: absolute;
+  margin: 130px 0px 0px 121px;
+}
+
+.product #product_1 {
+  background-color: #ffd050;
+}
+
+.product #product_2 {
+  background-color: #599b1b;
+}
+
+.product #product_3 {
+  background-color: #f7941d;
+}
+
+.product #product_4 {
+  background-color: #f5b5d2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: #dcce94;
+}
+/* footer */
+footer {
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  grid-template-rows: 30% 70%;
+  background-color: #b9d01d;
+  height: 300px;
+}
+
+footer .text1 h3 {
+  font-family: "Lalezar", cursive;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .detail p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .list li a {
+  text-decoration: none;
+  font-family: "Lalezar", cursive;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+
+footer .list ul li {
+  list-style-type: none;
+}
+
+footer .list {
+  padding: 10px 0px 0px 100px;
+}
